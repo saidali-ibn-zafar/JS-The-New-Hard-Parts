@@ -18,9 +18,9 @@
 
   ```
   # !
-  ❌ setTimeout(() => {...}, "1 sec")
-  ❌ setTimeout(() => {...}, "1000")
-  ✔️ setTimeout(() => {...}, 1000)
+  - ❌ setTimeout(() => {...}, "1 sec")
+  - ❌ setTimeout(() => {...}, "1000")
+  - ✔️ setTimeout(() => {...}, 1000)
  
    ## summary:
    But in many cases, the implicit type coercion can lead to unexpected and surprising results. For example, when the following code runs, the string `"1 second"` ultimately gets coerced into the number `0` — and so, the code executes immediately, with zero delay.
